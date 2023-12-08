@@ -7,8 +7,8 @@ Research Question to Answer: How does education funding impact schools and state
 Project Descrption: Analyze state funding in education and determine what impacts funding has on graduation rates, drop out rates, colleges rates. Does higher funding always equate to better outcomes or does it cap at a certain amount.
 Data Sets:
 Break Down of Task:
-    Mariah: 
-    James: Pull Data
+    Mariah: Generate graphs. Make presentation 
+    James: Pull Data, save as cvs
     Kelsey:
-    Amarilli:
+    Amarilli:Merge Data, Type up analysis and Read me
     Hisako: Merge Data
