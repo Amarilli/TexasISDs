@@ -1,0 +1,26 @@
+Hisako To-do list
+----------------------------
+merge df?
+----------------------------
+Tasks due 12/11:
+
+1. Explain how the project relates to the industry you selected.
+
+2. An overview of the data collection, cleanup, and exploration processes:
+Describe the source of your data and why you chose it for your project.
+Describe the collection, exploration, and cleanup process.
+
+3. The approach that your group took to achieve the project goals:
+Include any relevant code or demonstrations of the application or analysis.
+Discuss any unanticipated insights or problems that arose and how you resolved them.
+
+4. The results/conclusions of the application or analysis:
+Include relevant images or examples to support your work.
+If the project goal was not achieved, discuss the issues and how you attempted to resolve them.
+
+5. Next steps:
+Briefly discuss potential next steps for the project.
+Presentation Day
+It’s crucial that you find time to rehearse before presentation day.
+
+On the day of your presentation, each member of your group is required to submit the URL of your GitHub repository for grading.
