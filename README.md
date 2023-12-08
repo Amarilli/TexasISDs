@@ -33,4 +33,4 @@ Does higher funding always equate to better outcomes, or does it cap at a certai
     
     Amarilli: Merge Data, written analysis, and Read me
     
-    Hisako: Merge Data, Clean up data
+    Hisako: Clean up data. Make presentation
