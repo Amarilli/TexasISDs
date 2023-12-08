@@ -1,6 +1,6 @@
 # Project 1
 
-##**Education Funding Analysis**
+## **Education Funding Analysis**
 
 
 **Team Members:** 
