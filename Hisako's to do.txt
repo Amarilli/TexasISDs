@@ -1,8 +1,7 @@
 Hisako To-do list
 ----------------------------
-merge df?
-----------------------------
 Tasks due 12/11:
+Make Presentations for Monday class
 
 1. Explain how the project relates to the industry you selected.
 
