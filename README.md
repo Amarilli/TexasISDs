@@ -8,6 +8,7 @@
 - Kelsey Kraft
 - Mariah McLelan
 - Amarilli Novel
+- Hisako Yamanaka
 
   
 **Research Question to Answer:** 
