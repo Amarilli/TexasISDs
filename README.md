@@ -16,9 +16,9 @@ How does education funding impact students' and schools' success?
 
 **Project Description:** 
 
-Analyze state funding in education and determine the impacts funding has on graduation, dropout, and college rates. 
+Analyze state funding in Texas Education and determine if funding impacts SAT and ACT scores. 
 
-Does higher funding always equate to better outcomes, or does it cap at a certain amount?
+Does higher funding equate to better outcomes, or does it cap at a certain amount?
 
 
 **Data Sets Source:**
