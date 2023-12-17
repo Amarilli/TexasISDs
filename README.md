@@ -147,7 +147,7 @@ Then, we analyzed a possible correlation between spending ranges (per student) a
 
 The line plot suggests that the budget doesn't significantly affect scores, as some schools with smaller budgets scored the highest.
 
-Moreover, smaller schools tend to have higher ACT scores. 
+Moreover, smaller schools tend to have higher ACT and SAT scores. 
 
 These findings indicate that other factors besides budget allocation may influence academic performance, and further research is needed to identify these factors.
 
