@@ -231,9 +231,7 @@ Also, the budget does not help with dropout rates since some schools with higher
 
 After analyzing the data, a pertinent question arises: What is the key to success for smaller schools with higher ACT and SAT scores?
 
-As per the American Federation of Teachers Texas, teachers must maintain an average of 20 students per class across the district, although no prescribed limit exists for individual secondary classrooms. The 22:1 ratio only applies to students in Kindergarten through fourth grade.[ˆbignote]
-
-[ˆbignote]: https://www.texasaft.org/resources/know-rights/class-size/
+As per the American Federation of Teachers Texas, teachers must maintain an average of 20 students per class across the district, although no prescribed limit exists for individual secondary classrooms. The 22:1 ratio only applies to students in Kindergarten through fourth grade.
 
 Further investigation may lead us to hypothesize that the optimal student-to-teacher ratio in smaller schools may be a factor that contributes to their superior academic performance when compared to larger schools with a lower percentage of teachers per student. 
 
