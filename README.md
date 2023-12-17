@@ -133,40 +133,53 @@ At this point, we started the **visual analysis**:
 
 ### Visualization:
 
-1. Total Operating Revenue vs Student Count
+Our first goal was to investigate if there is a correlation between total operating revenue and student count. 
 
-The scatter plot shows a positive correlation between TOR and student count.
+Insert fig. Total Operating Revenue vs Student Count
 
-2. Spending Ranges (per student) vs. average total SAT  score
-The line plot suggests that the budget doesn't significantly affect scores, as some schools with smaller budgets scored the highest. Moreover, smaller schools tend to have higher SAT scores. And we know from the budget vs student count that the smaller the budget, the fewer students.
+The scatter plot shows a positive correlation between total operating revenue and student count.
 
-3. School Size vs. Average Total SAT score
-The data presented in the line graph indicates a substantial decline in academic scores when the school population increases.
+Then, we analyzed a possible correlation between spending ranges (per student) and average SAT and ACT scores.
 
-4. Spending Ranges (Per student) vs. average ACT Compos
-As for the SAT scores, the line plot analysis suggests that the budget doesn't significantly affect scores, as some schools with smaller budgets scored the highest. Moreover, smaller schools tend to have higher ACT scores.
+insert fig Spending Ranges (per student) vs. average total SAT score/ACT
+
+The line plot suggests that the budget doesn't significantly affect scores, as some schools with smaller budgets scored the highest.
+
+Moreover, smaller schools tend to have higher ACT scores. 
+
 These findings indicate that other factors besides budget allocation may influence academic performance, and further research is needed to identify these factors.
 
-5. School Size vs. average ACT composite
-The line plot confirms what we found for SAT scores: there is a significant decline in academic scores when the school population increases.
+We then decided to examine whether there is a correlation between school size and performance in standardized tests.
 
-6. "Largest Cities (by Pop.) ACT Composite" and Largest Cities (by Pop.) SAT Total
-We focused on five most significant in size city in Texas  and analyzed San Antonio ISD, Austin ISD, Fort Worth ISD, Dallas ISD, and Houston ISD creating a box plot that compares the total operating revenue for every ISD and the SAT and ACT Composite scores
+insert fig. School Size vs. Average Total SAT ACT score 
 
-7. SAT Total and ACT Composite scatterplots
-These two scatter plots display total operating revenue vs. act and sat scores. 
-We calculate the correlation.
-The correlation between Total Operating Revenue and ACT Composite scores is -0.03
-The correlation between Total Operating Revenue and SAT Total scores is -0.09
+The data presented in the line graph indicates a substantial decline in academic scores when the school population increases.
 
-8. SAT Total and ACT Composite histograms
-Displays total operating revenue vs act and sat scores. 
+At this point, we decided to narrow down our investigation: 
 
-9. Big City SAT vs ACT
-Using hvplot, this scatter plot displays where big cities stand for a score in a single graph
+insert fig "Largest Cities (by Pop.) ACT Composite" and Largest Cities (by Pop.) SAT Total 
 
-10. Treemap
-11. Dropout rates
+We analyzed the five largest cities in Texas: San Antonio, Austin, Fort Worth, Dallas, and Houston. 
+
+Specifically, we focused on their respective Independent School Districts (ISD) and created a box plot that compares the total operating revenue of each ISD with their SAT and ACT Composite scores.
+
+Using the same data, we created two scatterplots and two histograms:
+
+insert fig SAT Total and ACT Composite scatterplots 
+
+There is a negative correlation between Total Operating Revenue and ACT Composite and SAT Total scores, as indicated by the values of -0.03 and -0.09, respectively. 
+
+At this juncture, we determined that comparing a larger urban center and a smaller municipality was necessary. 
+
+To facilitate this assessment, we planned to implement `hvplot` as data visualization tool.
+
+insert fig Big City SAT vs ACT 
+
+insert Treemap
+
+After collecting sufficient data on total operating revenue and SAT/ACT scores, we examined the potential correlation between funding and dropout rates.
+
+Dropout rates
 
 
 ### Conclusions:
