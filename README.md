@@ -141,7 +141,9 @@ The scatter plot shows a positive correlation between total operating revenue an
 
 Then, we analyzed a possible correlation between spending ranges (per student) and average SAT and ACT scores.
 
->insert fig Spending Ranges (per student) vs. average total SAT score/ACT
+![>insert fig Spending Ranges (per student) vs. average total SAT score/ACT!](https://github.com/mariahmclelan/project1/blob/main/project_notebook/images/spendingvact.png)
+
+![sat spending!](https://github.com/mariahmclelan/project1/blob/main/project_notebook/images/spendingvsat.png)
 
 The line plot suggests that the budget doesn't significantly affect scores, as some schools with smaller budgets scored the highest.
 
@@ -151,15 +153,17 @@ These findings indicate that other factors besides budget allocation may influen
 
 We then decided to examine whether there is a correlation between school size and performance in standardized tests.
 
->insert fig. School Size vs. Average Total SAT ACT score 
+![>insert fig. School Size vs. Average Total SAT ACT score !](https://github.com/mariahmclelan/project1/blob/main/project_notebook/images/sizevact.png)
+
+![sat!](https://github.com/mariahmclelan/project1/blob/main/project_notebook/images/sizevsat.png)
 
 The data presented in the line graph indicates a substantial decline in academic scores when the school population increases.
 
 At this point, we decided to narrow down our investigation:
 
->insert fig "Largest Cities (by Pop.) ACT Composite" and Largest Cities (by Pop.) SAT Total 
-
 We analyzed the five largest cities in Texas (by population): San Antonio, Austin, Fort Worth, Dallas, and Houston. 
+
+![box plot kelsey!](https://github.com/mariahmclelan/project1/blob/main/project_notebook/images/ACT-SAT-Boxplots.png)
 
 Specifically, we focused on their respective Independent School Districts (ISD) and created a box plot that compares the total operating revenue of each ISD with their SAT and ACT Composite scores and demonstrates the variability of test scores within districts with some of the highest student counts and budgets. 
 
@@ -179,13 +183,13 @@ At this juncture, we determined that comparing a larger urban center and a small
 
 To facilitate this assessment, we plan to implement hvplot, as data visualization tool.
 
->insert fig Big City SAT vs ACT 
+![hisako act sat!](https://github.com/mariahmclelan/project1/blob/main/project_notebook/images/bigcity%20SAT%20vs%20ACT.png)
 
 >insert Treemap
 
 After collecting sufficient data on total operating revenue and SAT/ACT scores, we examined the potential correlation between funding and dropout rates.
 
->insert fig 1 Dropout rates
+![color-sorted histogram!](https://github.com/mariahmclelan/project1/blob/main/project_notebook/images/DropoutRateByStudentCount.png)
 
 The first figure is a color-sorted histogram displaying a relationship between the student counts of schools and the average dropout rates within those facets. 
 
@@ -193,11 +197,11 @@ Each vertical bar is an increasing measure of 20 students.
 
 At its lowest points, rates as low as 5 percent can be seen from the largest schools, while at its height, the schools with student populations between 60-80 and 300-320 peak at 48 and 56 percent.
 
->insert fig 2
+![james fringe towns!](https://github.com/mariahmclelan/project1/blob/main/project_notebook/images/DropoutRateBySchoolType.png)
 
 The second figure shows the average overall dropout rate by school type, with each school type having the total of its campuses measured to show that despite the previous figure leaning towards lower student populations having drastically higher dropout rates on average than schools located in what the state of Texas declares as "Large Cities" that have the highest average dropout rate with an overall average of 2.59 percent opposed to the lowest rate coming from "Rural Remote" towns at barely 0.39 percent.
 
->Insert fig 3
+![box plot James!](https://github.com/mariahmclelan/project1/blob/main/project_notebook/images/DropoutRateBoxPlot.png)
 
 "Fringe Towns," shown in the second figure, have the second highest school type dropout rate at 1.75 percent overall, and in the first figure, it's noticeable that "Fringe Towns" are also the largest dropout rate in the four highest rates found in the first figure. Ockham's razor would suggest that Fringe towns are the most likely to produce dropouts, but we wanted slightly more than that. So, figure 3 contains a box and whisker plot to eliminate any possible outliers and show that "Large Cities" still have the highest rate without outliers, having an upper fence of 6.1 percent.
 
