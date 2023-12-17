@@ -135,13 +135,13 @@ At this point, we started the **visual analysis**:
 
 Our first goal was to investigate if there is a correlation between total operating revenue and student count. 
 
-Insert fig. Total Operating Revenue vs Student Count
+>Insert fig. Total Operating Revenue vs Student Count
 
 The scatter plot shows a positive correlation between total operating revenue and student count.
 
 Then, we analyzed a possible correlation between spending ranges (per student) and average SAT and ACT scores.
 
-insert fig Spending Ranges (per student) vs. average total SAT score/ACT
+>insert fig Spending Ranges (per student) vs. average total SAT score/ACT
 
 The line plot suggests that the budget doesn't significantly affect scores, as some schools with smaller budgets scored the highest.
 
@@ -151,35 +151,55 @@ These findings indicate that other factors besides budget allocation may influen
 
 We then decided to examine whether there is a correlation between school size and performance in standardized tests.
 
-insert fig. School Size vs. Average Total SAT ACT score 
+>insert fig. School Size vs. Average Total SAT ACT score 
 
 The data presented in the line graph indicates a substantial decline in academic scores when the school population increases.
 
-At this point, we decided to narrow down our investigation: 
+At this point, we decided to narrow down our investigation:
 
-insert fig "Largest Cities (by Pop.) ACT Composite" and Largest Cities (by Pop.) SAT Total 
+>insert fig "Largest Cities (by Pop.) ACT Composite" and Largest Cities (by Pop.) SAT Total 
 
-We analyzed the five largest cities in Texas: San Antonio, Austin, Fort Worth, Dallas, and Houston. 
+We analyzed the five largest cities in Texas (by population): San Antonio, Austin, Fort Worth, Dallas, and Houston. 
 
-Specifically, we focused on their respective Independent School Districts (ISD) and created a box plot that compares the total operating revenue of each ISD with their SAT and ACT Composite scores.
+Specifically, we focused on their respective Independent School Districts (ISD) and created a box plot that compares the total operating revenue of each ISD with their SAT and ACT Composite scores and demonstrates the variability of test scores within districts with some of the highest student counts and budgets. 
 
-Using the same data, we created two scatterplots and two histograms:
+There is not a better outcome in SAT and ACT tests as Total Operating Revenue increases. 
 
-insert fig SAT Total and ACT Composite scatterplots 
+In fact, Austin ISD performs the best in both SAT and ACT while having a smaller budget than Fort Worth, Dallas, and Houston. 
+
+We chose the five largest cities as these had plenty of schools reporting scores, allowing a coherent box plot graph (small districts with only one or two schools don't give enough data to plot them in this manner). 
+
+Using the same data we created two scatterplots and two histograms:
+
+>insert fig SAT Total and ACT Composite scatterplots 
 
 There is a negative correlation between Total Operating Revenue and ACT Composite and SAT Total scores, as indicated by the values of -0.03 and -0.09, respectively. 
 
 At this juncture, we determined that comparing a larger urban center and a smaller municipality was necessary. 
 
-To facilitate this assessment, we planned to implement `hvplot` as data visualization tool.
+To facilitate this assessment, we plan to implement hvplot, as data visualization tool.
 
-insert fig Big City SAT vs ACT 
+>insert fig Big City SAT vs ACT 
 
-insert Treemap
+>insert Treemap
 
 After collecting sufficient data on total operating revenue and SAT/ACT scores, we examined the potential correlation between funding and dropout rates.
 
-Dropout rates
+>insert fig 1 Dropout rates
+
+The first figure is a color-sorted histogram displaying a relationship between the student counts of schools and the average dropout rates within those facets. 
+
+Each vertical bar is an increasing measure of 20 students. 
+
+At its lowest points, rates as low as 5 percent can be seen from the largest schools, while at its height, the schools with student populations between 60-80 and 300-320 peak at 48 and 56 percent.
+
+>insert fig 2
+
+The second figure shows the average overall dropout rate by school type, with each school type having the total of its campuses measured to show that despite the previous figure leaning towards lower student populations having drastically higher dropout rates on average than schools located in what the state of Texas declares as "Large Cities" that have the highest average dropout rate with an overall average of 2.59 percent opposed to the lowest rate coming from "Rural Remote" towns at barely 0.39 percent.
+
+>Insert fig 3
+
+"Fringe Towns," shown in the second figure, have the second highest school type dropout rate at 1.75 percent overall, and in the first figure, it's noticeable that "Fringe Towns" are also the largest dropout rate in the four highest rates found in the first figure. Ockham's razor would suggest that Fringe towns are the most likely to produce dropouts, but we wanted slightly more than that. So, figure 3 contains a box and whisker plot to eliminate any possible outliers and show that "Large Cities" still have the highest rate without outliers, having an upper fence of 6.1 percent.
 
 
 ### Conclusions:
