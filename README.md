@@ -28,6 +28,15 @@ Through statistical and visual analysis, we will determine whether higher fundin
 
 https://tea.texas.gov/
 
+> https://tea.texas.gov/reports-and-data/school-data/campus-and-district-type-data-search
+
+> https://tea.texas.gov/reports-and-data/school-performance/accountability-research/c[…]-graduation-and-dropout/completion-graduation-and-dropout-data
+
+> https://tea.texas.gov/reports-and-data/school-performance/accountability-research/ap/ib-and-sat/act
+
+> https://tea.texas.gov/finance-and-grants/state-funding/state-funding-reports-and-data
+
+> https://tea.texas.gov/finance-and-grants/state-funding/state-funding-reports-and-data/peims-financial-standard-reports
 
 ### Break Down of Task:
 
