@@ -19,7 +19,7 @@ How does the funding allocated to education impact the success of students and s
 
 The project aims to analyze the impact of education funding on the success of students and schools. 
 
-Specifically, the study will focus on the relationship between state funding in Texas Education, SAT/ACT scores, and dropout rate. 
+Specifically, the study will focus on the relationship between state funding in Texas education, SAT/ACT scores, and dropout rates. 
 
 Through statistical and visual analysis, we will determine whether higher funding leads to better outcomes or if there is a point where the impact of funding levels off.
 
@@ -50,13 +50,16 @@ https://tea.texas.gov/
 
 We began our study by searching for suitable datasets, focusing on the Texas Education system and referring to the TEA Texas Education Agency website.
 
-We found six Excel files there, which we converted to .csv files. 
+We found six relevant Excel files, which we converted to .csv files. 
 
 Our first challenge was determining which columns to choose. 
 
 For finance, we focused solely on total operating revenue, which Texas uses to support educational operations and facility construction in public school districts. 
-This revenue comes from local, state, and federal funding sources, with the majority coming from state and local sources and only a relatively small amount from the federal government. 
-State government aid is the primary funding source for elementary and secondary education, followed by local contributions (primarily property taxes). On average, 8% of revenues come from the federal government, 47% from the state, and 45% from local sources.[]
+This revenue comes from local, state, and federal funding sources, with the majority coming from state and local sources and only a relatively small amount from the federal government[ˆ1]. 
+([ˆ1] : https://comptroller.texas.gov/economy/fiscal-notes/2019/jan/funding.php#:~:text=Local%20funding%20for%20Texas%20public,%24100%20of%20taxable%20property%20valuation.)
+
+State government aid is the primary funding source for elementary and secondary education, followed by local contributions (primarily property taxes). On average, 8% of revenues come from the federal government, 47% from the state, and 45% from local sources.[ˆ2]
+([ˆ2]:  McFarland, J., Hussar, B., Wang, X., Zhang, J., Wang, K., Rathbun, A., … Bullock Mann, F. (2018). The condition of education 2018. National Center for Education Statistics.)
 
 We selected "All Students" as the group for SAT and ACT scores, as other groups had inconsistent data. 
 
