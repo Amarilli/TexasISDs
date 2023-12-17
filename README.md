@@ -171,21 +171,21 @@ There is not a better outcome in SAT and ACT tests as Total Operating Revenue in
 
 In fact, Austin ISD performs the best in both SAT and ACT while having a smaller budget than Fort Worth, Dallas, and Houston. 
 
-We chose the five largest cities as these had plenty of schools reporting scores, allowing a coherent box plot graph (small districts with only one or two schools don't give enough data to plot them in this manner). 
+We chose the five largest cities as these had plenty of schools reporting scores, allowing a coherent box plot graph (small districts with only one or two schools need to give more data to plot them in this manner). 
 
-Using the same data we created two scatterplots and two histograms:
+Using the same data, we created two scatterplots and two histograms:
 
 >insert fig SAT Total and ACT Composite scatterplots 
 
 There is a negative correlation between Total Operating Revenue and ACT Composite and SAT Total scores, as indicated by the values of -0.03 and -0.09, respectively. 
 
-At this juncture, we determined that comparing a larger urban center and a smaller municipality was necessary. 
+At this juncture, we determined that comparing a larger urban center and a smaller municipality was necessary to confirm our hypothesis. 
 
-To facilitate this assessment, we plan to implement hvplot, as data visualization tool.
+To facilitate this assessment, we plan to implement `hvplot`, as data visualization tool.
 
 ![hisako act sat!](https://github.com/mariahmclelan/project1/blob/main/project_notebook/images/tombotom%20SAT%20vs%20ACT.png)
 
-We also created a treemap to visualize the differences between larger and smaller district. The treemap is interactive and visible on the following website when the code is running:
+We also created a treemap to visualize the differences between larger and smaller districts. The treemap is interactive and visible on the following website when the code is running:
 
 > http://127.0.0.1:8050/
 
@@ -208,7 +208,37 @@ The second figure shows the average overall dropout rate by school type, with ea
 "Fringe Towns," shown in the second figure, have the second highest school type dropout rate at 1.75 percent overall, and in the first figure, it's noticeable that "Fringe Towns" are also the largest dropout rate in the four highest rates found in the first figure. Ockham's razor would suggest that Fringe towns are the most likely to produce dropouts, but we wanted slightly more than that. So, figure 3 contains a box and whisker plot to eliminate any possible outliers and show that "Large Cities" still have the highest rate without outliers, having an upper fence of 6.1 percent.
 
 
-### Conclusions:
+### Takeaways and conclusions:
+
+- As expected, there is a positive correlation between total operating revenue and student count.
+  That means the more students a school district has, the bigger the funding received.
+  
+- The budget doesn't significantly affect scores, as some schools with smaller budgets scored the highest.
+  Moreover, smaller schools tend to have higher ACT and SAT scores.
+  
+- There is a substantial decline in academic scores when the school population increases.
+
+- When analyzing the five largest cities in Texas by population, we discovered that Austin ISD performs the best in both SAT and ACT while having a smaller budget than Fort Worth, Dallas, and Houston.
+
+- There is a negative correlation between Total Operating Revenue and ACT Composite and SAT Total scores, as indicated by the values of -0.03 and -0.09, respectively.
+
+- Smaller schools, on average, do better than larger schools.
+
+- Large Cities and large school districts have the highest dropout rates without outliers, having an upper fence of 6.1 percent.
+
+In conclusion, education funding does not impact students' success in SAT and ACT scores. 
+Also, the budget does not help with dropout rates since some schools with higher total operating revenue have the highest dropout rates.
+
+After analyzing the data, a pertinent question arises: What is the key to success for smaller schools with higher ACT and SAT scores?
+
+As per the American Federation of Teachers Texas, teachers must maintain an average of 20 students per class across the district, although no prescribed limit exists for individual secondary classrooms. The 22:1 ratio only applies to students in Kindergarten through fourth grade.[ˆbignote]
+
+[ˆbignote]: https://www.texasaft.org/resources/know-rights/class-size/
+
+Further investigation may lead us to hypothesize that the optimal student-to-teacher ratio in smaller schools may be a factor that contributes to their superior academic performance when compared to larger schools with a lower percentage of teachers per student. 
+
+To answer this question, we need to research more and this query could already be the draft of our project 2. 
+
 
 
     
