@@ -135,7 +135,7 @@ At this point, we started the **visual analysis**:
 
 Our first goal was to investigate if there is a correlation between total operating revenue and student count. 
 
->Insert fig. Total Operating Revenue vs Student Count
+>![tor vs students!](https://github.com/mariahmclelan/project1/blob/main/project_notebook/images/all%20budget%20vs%20student.png)
 
 The scatter plot shows a positive correlation between total operating revenue and student count.
 
@@ -183,9 +183,11 @@ At this juncture, we determined that comparing a larger urban center and a small
 
 To facilitate this assessment, we plan to implement hvplot, as data visualization tool.
 
-![hisako act sat!](https://github.com/mariahmclelan/project1/blob/main/project_notebook/images/bigcity%20SAT%20vs%20ACT.png)
+![hisako act sat!](https://github.com/mariahmclelan/project1/blob/main/project_notebook/images/tombotom%20SAT%20vs%20ACT.png)
 
->insert Treemap
+We also created a treemap to visualize the differences between larger and smaller district. The treemap is interactive and visible on the following website when the code is running:
+
+> http://127.0.0.1:8050/
 
 After collecting sufficient data on total operating revenue and SAT/ACT scores, we examined the potential correlation between funding and dropout rates.
 
