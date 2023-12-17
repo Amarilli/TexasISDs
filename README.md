@@ -54,7 +54,7 @@ We found six relevant Excel files, which we converted to .csv files.
 
 Our first challenge was determining which columns to choose. 
 
-For finance, we focused solely on total operating revenue, which Texas uses to support educational operations and facility construction in public school districts. 
+For the financial data, we focused solely on total operating revenue, which Texas uses to support educational operations and facility construction in public school districts. 
 This revenue comes from local, state, and federal funding sources, with the majority coming from state and local sources and only a relatively small amount from the federal government.  
 
 State government aid is the primary funding source for elementary and secondary education, followed by local contributions (primarily property taxes). On average, 8% of revenues come from the federal government, 47% from the state, and 45% from local sources[^bignote2].
