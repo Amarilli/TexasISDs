@@ -175,7 +175,9 @@ We chose the five largest cities as these had plenty of schools reporting scores
 
 Using the same data, we created two scatterplots and two histograms:
 
->insert fig SAT Total and ACT Composite scatterplots 
+![insert fig SAT Total and ACT Composite scatterplots!](https://github.com/mariahmclelan/project1/blob/main/project_notebook/images/ACT-SAT-Oper-Rev-Scatter.png) 
+
+![histograms !](https://github.com/mariahmclelan/project1/blob/main/project_notebook/images/ACT-SAT-Oper-Rev-Hist.png)
 
 There is a negative correlation between Total Operating Revenue and ACT Composite and SAT Total scores, as indicated by the values of -0.03 and -0.09, respectively. 
 
