@@ -167,7 +167,7 @@ We analyzed the five largest cities in Texas (by population): San Antonio, Austi
 
 Specifically, we focused on their respective Independent School Districts (ISD) and created a box plot that compares the total operating revenue of each ISD with their SAT and ACT Composite scores and demonstrates the variability of test scores within districts with some of the highest student counts and budgets. 
 
-There is not a better outcome in SAT and ACT tests as Total Operating Revenue increases. 
+There is no better outcome in SAT and ACT tests as Total Operating Revenue increases. 
 
 In fact, Austin ISD performs the best in both SAT and ACT while having a smaller budget than Fort Worth, Dallas, and Houston. 
 
