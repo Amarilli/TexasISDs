@@ -195,7 +195,7 @@ After collecting sufficient data on total operating revenue and SAT/ACT scores, 
 
 ![color-sorted histogram!](https://github.com/mariahmclelan/project1/blob/main/project_notebook/images/DropoutRateByStudentCount.png)
 
-The first figure is a color-sorted histogram displaying a relationship between the student counts of schools and the average dropout rates within those facets. 
+The color-sorted histogram displays a relationship between the student counts of schools and the average dropout rates within those facets. 
 
 Each vertical bar is an increasing measure of 20 students. 
 
@@ -203,7 +203,7 @@ At its lowest points, rates as low as 5 percent can be seen from the largest sch
 
 ![james fringe towns!](https://github.com/mariahmclelan/project1/blob/main/project_notebook/images/DropoutRateBySchoolType.png)
 
-The second figure shows the average overall dropout rate by school type, with each school type having the total of its campuses measured to show that despite the previous figure leaning towards lower student populations having drastically higher dropout rates on average than schools located in what the state of Texas declares as "Large Cities" that have the highest average dropout rate with an overall average of 2.59 percent opposed to the lowest rate coming from "Rural Remote" towns at barely 0.39 percent.
+The bar chart shows the average dropout rates by school type. The highest rate is in "Large Cities" at 2.59%, while the lowest is in "Rural Remote" towns at 0.39%.
 
 ![box plot James!](https://github.com/mariahmclelan/project1/blob/main/project_notebook/images/DropoutRateBoxPlot.png)
 
