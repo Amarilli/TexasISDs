@@ -191,6 +191,8 @@ We also created a treemap to visualize the differences between larger and smalle
 
 > http://127.0.0.1:8050/
 
+1[non interactive!](https://github.com/mariahmclelan/project1/blob/main/project_notebook/images/5%20trea%20map.png)
+
 After collecting sufficient data on total operating revenue and SAT/ACT scores, we examined the potential correlation between funding and dropout rates.
 
 ![color-sorted histogram!](https://github.com/mariahmclelan/project1/blob/main/project_notebook/images/DropoutRateByStudentCount.png)
