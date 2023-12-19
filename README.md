@@ -207,7 +207,7 @@ At its lowest points, rates as low as 5 percent can be seen from the largest sch
 
 The bar chart shows the average dropout rates by school type. The highest rate is in "Large Cities" at 2.59%, while the lowest is in "Rural Remote" towns at 0.39%.
 
-![box plot James!](https://github.com/mariahmclelan/project1/blob/main/project_notebook/images/DropoutRateBoxPlot.png)
+![box plot James!](https://github.com/mariahmclelan/project1/blob/main/project_notebook/images/boxplot.png))
 
 "Fringe Towns," shown in the second figure, have the second highest school type dropout rate at 1.75 percent overall, and in the first figure, it's noticeable that "Fringe Towns" are also the largest dropout rate in the four highest rates found in the first figure. Ockham's razor would suggest that Fringe towns are the most likely to produce dropouts, but we wanted slightly more than that. So, figure 3 contains a box and whisker plot to eliminate any possible outliers and show that "Large Cities" still have the highest rate without outliers, having an upper fence of 6.1 percent.
 
