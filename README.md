@@ -135,7 +135,7 @@ At this point, we started the **visual analysis**:
 
 Our first goal was to investigate if there is a correlation between total operating revenue and student count. 
 
->![tor vs students!]()
+>![tor vs students!](https://github.com/mariahmclelan/project1/blob/main/project_notebook/images/all%20budget%20vs%20student.jpeg)
 
 The scatter plot shows a positive correlation between total operating revenue and student count.
 
